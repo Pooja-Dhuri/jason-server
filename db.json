@@ -2,15 +2,140 @@
 {  
     "doctors": [
       {
-          "id": "1",
-          "name": "Dr. John Doe",
-          "specialty": "Cardiologist"
+          "id": 1,
+          "name": "Dr. Satish Gokhale",
+          "specialty": "Cardiologist",
+          "date": "2024-04-25",
+          "schedule": "Evenings",
+          "available_slots": [
+              "18:00",
+              "18:30",
+              "19:00",
+              "19:30"
+            ],
+            "location": "XYZ Hospital"
       },
       {
-          "id": "2",
-          "name": "Dr. Jane Smith",
-          "specialty": "Pediatrician"
-      }
+          "id": 2,
+          "name": "Dr. Ritu Patil",
+          "specialty": "Pediatrician",
+          "date": "2024-04-25",
+          "schedule": "Evenings",
+          "available_slots": [
+              "18:00",
+              "18:30",
+              "19:00",
+              "19:30"
+            ],
+            "location": "MNO Hospital"
+      },
+      {
+        "id": 3,
+        "name": "Dr. Priya Sharma",
+        "specialty": "Dermatologist",
+        "schedule": "Evenings",
+        "location": "ABC Clinic",
+        "date": "2024-04-25",
+        "available_slots": [
+          "18:00",
+          "18:30",
+          "19:00",
+          "19:30"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Dr. Rajesh Patel",
+        "specialty": "Orthopedic Surgeon",
+        "schedule": "Evenings",
+        "location": "LMN Hospital",
+        "date": "2024-04-25",
+        "available_slots": [
+          "18:00",
+          "18:30",
+          "19:00",
+          "19:30"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Dr. Anjali Desai",
+        "specialty": "Gynecologist",
+        "schedule": "Evenings",
+        "location": "PQR Hospital",
+        "date": "2024-04-25",
+        "available_slots": [
+          "18:00",
+          "18:30",
+          "19:00",
+          "19:30"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dr. Vivek Kumar",
+        "specialty": "Pediatrician",
+        "schedule": "Evenings",
+        "location": "STU Clinic",
+        "date": "2024-04-25",
+        "available_slots": [
+          "18:00",
+          "18:30",
+          "19:00",
+          "19:30"
+        ]
+    }
+  ],
+  "Book_Appoinments":[
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Joti M",
+      "patient_email": "Joti@example.com",
+      "doctor_name": "Dr. Ritu Patil"
+    },
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Rushikesh G",
+      "patient_email": "Rushikesh@example.com",
+      "doctor_name": "Dr. Vivek Kumar"
+    },
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Preeti K",
+      "patient_email": "Preeti@example.com",
+      "doctor_name": "Dr. Priya Sharma"
+    },
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Bhushan S",
+      "patient_email": "Bhushan@example.com",
+      "doctor_name": "Dr. Vivek Kumar"
+    },
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Chirag S",
+      "patient_email": "Chirag@example.com",
+      "doctor_name": "Dr. Ritu Patil"
+    },
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Neha P",
+      "patient_email": "Neha@example.com",
+      "doctor_name": "Dr. Vivek Kumar"
+    },
+    {
+      "date": "2024-04-25",
+      "time": "18:00",
+      "patient_name": "Nikita D",
+      "patient_email": "Nikita@example.com",
+      "doctor_name": "Dr. Priya Sharma"
+    }
   ]
   }
   
