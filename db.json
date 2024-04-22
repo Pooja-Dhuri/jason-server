@@ -201,63 +201,18 @@
         "price": 35.00,
         "image2": ""
       }  ],
-     "hostel":[{
-        "category": "family",
-        "image_url": "https://images.unsplash.com/photo-1663756080499-c29e3346c462?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8RnpvM3p1T0hONnd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
-        "type_of_room": "AC",
-        "bed_type": "single",
-        "no_of_persons": "4",
-        "capacity": "5",
-        "cost": "400",
-        "booked": false,
-        "id": 3
-        }
-      ],
-      "cart":[
-        {
-          "name": "Riggert",
-  "type": "fine_dining",
-  "rating": 1,
-  "number_of_votes": 505,
-  "price_starts_from": 475,
-  "image": "https://picsum.photos/200"
-        }
-      ],
-      "Tution":[
-        {
-          "id": 1,
-          "name": "chirag",
-          "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmd4qzu9361Zsnpcu0tGvxu1qaW8R-d4P8A&usqp=CAU",
-          "gender": "male",
-          "age": 24,
-          "Tests": [
-            {
-              "testName": "mid-test",
-              "subject": "math",
-              "marks": 80,
-              "date": "1/09/2022"
-            },
-            {
-              "testName": "mid-test",
-              "subject": "english",
-              "marks": 40,
-              "date": "2/09/2022"
-            },
-            {
-              "testName": "mid-test",
-              "subject": "science",
-              "marks": 80,
-              "date": "3/09/2022"
-            }
-          ]
-        }
-      ],
-      "playzone":[
-        {
-          "id":1,
-          "name":"pooja",
-          "level":30
-        }
-      ]
+      
+    "doctors": [
+      {
+          "id": "1",
+          "name": "Dr. John Doe",
+          "specialty": "Cardiologist"
+      },
+      {
+          "id": "2",
+          "name": "Dr. Jane Smith",
+          "specialty": "Pediatrician"
+      }
+  ]
   }
   
